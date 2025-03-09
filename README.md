@@ -5,7 +5,7 @@
 ---
 
 ## Project Overview  
-This repository contains our solution for the Intel1i Hack competition. We developed a machine learning model to predict stock prices 5 days into the future and designed an end-to-end system architecture for deployment.  
+This repository contains our solution for the Intelli Hack competition. We developed a machine learning model to predict stock prices 5 days into the future and designed an end-to-end system architecture for deployment.  
 
 ---
 

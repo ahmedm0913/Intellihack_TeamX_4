@@ -1,6 +1,6 @@
 # Stock Price Prediction System  
 **Team Name**: TeamX 
-**Competition**: Intel1i Hack  
+**Competition**: Intelli Hack  
 
 ---
 

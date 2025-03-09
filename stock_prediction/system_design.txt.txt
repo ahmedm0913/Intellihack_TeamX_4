@@ -1,0 +1,33 @@
+1. Data Collection:  
+   - Used Python scripts to download stock data from CSV files.  
+   - Why? Simple and free for small projects.  
+
+2. Model Training:  
+   - Used LightGBM because it trains quickly and works well with tabular data.  
+   - Why? Easy to use and works well with stock data.  
+
+3. Predictions:  
+   - Saved results to CSV files.  
+   - Why? CSV is easy to share with others and analyst can easily open in Excel.  
+
+Tradeoffs:  
+- CSV files are not ideal for large-scale systems.  
+- Manual updates needed (no automation).  
+
+Data Flow:  
+1. Batch Processing:  
+   - Data is collected once (from CSV) and processed in chunks.  
+2. Transformations:  
+   - Clean data → Add features (e.g., moving averages) → Train model.  
+3. Output:  
+   - Predictions saved to CSV for analysts to review.  
+
+Challenges:  
+1. Data Updates: CSV files need manual updates.  
+   - Fix: Use a tool like Cron jobs to auto-download data. 
+
+2. Model Accuracy: Predictions might get worse over time.  
+   - Fix: Retrain the model every month.  
+
+3. Scalability: CSV can’t handle large data.  
+   - Fix: Use a database like SQLite.  

@@ -1,5 +1,6 @@
 # Stock Price Prediction System  
-**Team Name**: TeamX 
+**Team Name**: TeamX
+
 **Competition**: Intelli Hack  
 
 ---
@@ -10,13 +11,20 @@ This repository contains our solution for the Intelli Hack competition. We devel
 ---
 
 ## Repository Structure  
-Intel1i-hack_TeamX_4
+Intelli-hack_TeamX_4
+
 ├── data/ # Raw and processed data
+
 ├── notebooks/ # Jupyter notebooks for EDA and modeling
+
 ├── predictions/ # Predicted stock prices (CSV)
+
 ├── plots/ # Visualizations from EDA
+
 ├── system_design.png # Architecture diagram
+
 ├── system_design.txt # Component justifications
+
 └── README.md # This file
 
 ---
@@ -26,6 +34,7 @@ Intel1i-hack_TeamX_4
    ```bash
    pip install pandas numpy matplotlib scikit-learn lightgbm jupyter
 2. Run the Notebooks
+   
 Step 1: Open notebooks/Stock_EDA.ipynb in Jupyter Notebook to perform exploratory data analysis.
 
 Step 2: Open notebooks/Model_Training.ipynb to train the model and generate predictions.
